@@ -26,8 +26,8 @@ h6 {
   margin: 0;
 }
 
-h1, h6 {
-  font-family: Shrikhand, Roboto, sans-serif;
+h1 {
+  font-family: Shrikhand, sans-serif;
 }
 
 body, html {
@@ -192,7 +192,6 @@ body, html {
 }
 
 .location {
-  font-family: roboto;
   background: #eaeaea;
   display: flex;
   justify-content: center;
