@@ -1,0 +1,58 @@
+.restaurant__title {
+  @include tablet {
+    width: 100%;
+  }
+}
+.restaurant h3 {
+  @include tablet {
+    text-align: center;
+  }
+}
+.restaurant__card__new {
+  @include btn-new;
+}
+.restaurant__card {
+  @include card;
+  @include tablet {
+    width: 40%;
+  }
+}
+.restaurant__card img {
+  @include card-img;
+}
+.restaurant__card__caption {
+  display: flex;
+  justify-content: space-between;
+}
+
+.restaurant__card__caption__title {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 5px;
+
+  & h3 {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+  }
+}
+.restaurant {
+  background: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  padding: 57px 21px 46px 21px;
+  gap: 17px;
+  @include tablet {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+  }
+  @include desktop {
+    padding: 30px;
+  }
+}
+
+.restaurant__card__caption__heart {
+  padding: 5px;
+  @include heart;
+}

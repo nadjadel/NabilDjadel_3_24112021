@@ -1,0 +1,11 @@
+.location {
+  background: #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0px 5px 5px 0px #dddddd;
+  padding:1.5em;
+  & span{
+    padding:0 15px 0 0;
+  }
+}

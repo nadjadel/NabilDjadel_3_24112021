@@ -1,0 +1,96 @@
+.main__menu {
+  @include main-menu;
+}
+.main__menu__items {
+  @include desktop {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+.main__menu__items__starter {
+  animation: fadein 3s ease-in-out;
+  @include desktop {
+    width: 400px;
+  }
+}
+.main__menu__items__entree {
+  animation: fadein 6s ease-in-out;
+  @include desktop {
+    width: 400px;
+  }
+}
+.main__menu__items__desert {
+  animation: fadein 9s ease-in-out;
+  @include desktop {
+    width: 400px;
+  }
+}
+.item-selector {
+  @include item-selector;
+}
+
+.main__menu__items__starter__separator,
+.main__menu__items__entree__separator,
+.main__menu__items__desert__separator {
+  @include separator;
+}
+
+.main__menu__title {
+  @include menu-title;
+  @include desktop {
+    padding: 10px 90px;
+  }
+}
+.main__menu__items__starter__meal,
+.main__menu__items__entree__meal,
+.main__menu__items__desert__meal {
+  @include meals;
+  & h4 {
+    margin: 0;
+  }
+}
+.main__menu__items__starter__meal__card,
+.main__menu__items__entree__meal__card,
+.main__menu__items__desert__meal__card {
+  @include menu-card;
+  @include desktop {
+    padding-right: 20px;
+  }
+}
+
+.main__menu__items__starter h3,
+.main__menu__items__entree h3,
+.main__menu__items__desert h3 {
+  padding-left: 10px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.btn__order button {
+  @include btn-purple;
+  margin: 30px 0;
+  padding: 20px;
+  width: 50%;
+  @include desktop {
+    width: 25%;
+  }
+  &:hover {
+    background-color: lighten(#9356dc, 10%);
+    background-blend-mode: lighten;
+    box-shadow: 4px 4px 6px #000;
+  }
+}
+.btn__order {
+  display: flex;
+  justify-content: center;
+}
+
+.main__img img {
+  object-fit: cover;
+  width: 100%;
+  height: 250px;
+}
+
+.main__menu__heart {
+  @include heart;
+}
