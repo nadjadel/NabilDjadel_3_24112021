@@ -392,6 +392,9 @@ body, html {
 .help li:hover {
   background-color: #f5edff;
 }
+.help li:hover i {
+  color: #9356DC;
+}
 @media screen and (min-width: 768px) {
   .help {
     display: flex;

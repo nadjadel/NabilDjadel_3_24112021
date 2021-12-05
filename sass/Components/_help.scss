@@ -33,6 +33,7 @@
 .help__icon i {
   color: #b2b2b2;
   margin: 0 20px 0 10px;
+  
 }
 .help {
   margin: 55px 0 70px 0;
@@ -49,6 +50,9 @@
     height: 77px;
     &:hover {
       background-color: $color-over;
+      & i{
+        color:$color-primary;
+      }
     }
   }
   @include tablet {
