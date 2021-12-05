@@ -71,6 +71,7 @@ align-items:center;
   }
   @include desktop {
     display: flex;
+    flex-direction: row;
     align-items:center;
    
     & ol {

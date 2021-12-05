@@ -415,6 +415,7 @@ body, html {
 @media screen and (min-width: 1280px) {
   .help {
     display: flex;
+    flex-direction: row;
     align-items: center;
   }
   .help ol {
