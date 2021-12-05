@@ -57,6 +57,7 @@
   }
   @include tablet {
     display: flex;
+    flex-direction: column;
 align-items:center;
 
     & ol {
@@ -64,7 +65,7 @@ align-items:center;
       justify-content: space-around;
       flex: 1 0 33%;
       & li {
-        width: 25%;
+        width: 33%;
       }
     }
   }
