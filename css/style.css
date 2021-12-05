@@ -233,7 +233,7 @@ body, html {
   background-image: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
   border: 1px solid transparent;
   border-radius: 30px;
-  padding: 10px 5px;
+  padding: 15px;
   color: #fff;
   font-weight: bold;
   box-shadow: 4px 4px 6px #aaa;
@@ -588,7 +588,7 @@ body, html {
   background-image: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
   border: 1px solid transparent;
   border-radius: 30px;
-  padding: 10px 5px;
+  padding: 15px;
   color: #fff;
   font-weight: bold;
   box-shadow: 4px 4px 6px #aaa;
