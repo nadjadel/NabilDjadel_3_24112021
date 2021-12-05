@@ -118,19 +118,20 @@ body, html {
 }
 .footer h3 {
   font-family: "Shrikhand", "sans-serif";
+  margin: 0 30px 0 0;
   font-size: 1.2rem;
   font-weight: 500;
 }
 @media screen and (min-width: 1280px) {
   .footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
   }
 }
 @media screen and (min-width: 768px) {
   .footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     padding: 15px;
   }
 }
