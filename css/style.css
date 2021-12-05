@@ -63,9 +63,10 @@ body, html {
     opacity: 0;
   }
 }
-@keyframes fadein {
+@keyframes sideup {
   from {
     opacity: 0;
+    transform: translateY(10px);
   }
   to {
     opacity: 1;
@@ -444,29 +445,30 @@ body, html {
   }
 }
 
-.main__menu__items__starter {
-  animation: fadein 3s ease-in-out;
+.main__menu__items__starter__meal:nth-child(2),
+.main__menu__items__entree__meal:nth-child(2),
+.main__menu__items__desert__meal:nth-child(2) {
+  animation: sideup 1s ease-in-out;
+}
+.main__menu__items__starter__meal:nth-child(3),
+.main__menu__items__entree__meal:nth-child(3),
+.main__menu__items__desert__meal:nth-child(3) {
+  animation: sideup 1.3s ease-in-out;
+}
+.main__menu__items__starter__meal:nth-child(4),
+.main__menu__items__entree__meal:nth-child(4),
+.main__menu__items__desert__meal:nth-child(4) {
+  animation: sideup 1.6s ease-in-out;
+}
+.main__menu__items__starter__meal:nth-child(5),
+.main__menu__items__entree__meal:nth-child(5),
+.main__menu__items__desert__meal:nth-child(5) {
+  animation: sideup 1.9s ease-in-out;
 }
 @media screen and (min-width: 1280px) {
-  .main__menu__items__starter {
-    width: 400px;
-  }
-}
-
-.main__menu__items__entree {
-  animation: fadein 6s ease-in-out;
-}
-@media screen and (min-width: 1280px) {
-  .main__menu__items__entree {
-    width: 400px;
-  }
-}
-
-.main__menu__items__desert {
-  animation: fadein 9s ease-in-out;
-}
-@media screen and (min-width: 1280px) {
-  .main__menu__items__desert {
+  .main__menu__items__starter__meal,
+.main__menu__items__entree__meal,
+.main__menu__items__desert__meal {
     width: 400px;
   }
 }

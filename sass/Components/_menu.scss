@@ -7,24 +7,27 @@
     justify-content: space-around;
   }
 }
-.main__menu__items__starter {
-  animation: fadein 3s ease-in-out;
+.main__menu__items__starter__meal,
+.main__menu__items__entree__meal,
+.main__menu__items__desert__meal {
+  &:nth-child(2){
+    animation: sideup 1s ease-in-out;
+  }
+  &:nth-child(3){
+    animation: sideup 1.3s ease-in-out;
+  }
+  &:nth-child(4){
+    animation: sideup 1.6s ease-in-out;
+  }
+  &:nth-child(5){
+    animation: sideup 1.9s ease-in-out;
+  }
+  
   @include desktop {
     width: 400px;
   }
 }
-.main__menu__items__entree {
-  animation: fadein 6s ease-in-out;
-  @include desktop {
-    width: 400px;
-  }
-}
-.main__menu__items__desert {
-  animation: fadein 9s ease-in-out;
-  @include desktop {
-    width: 400px;
-  }
-}
+
 .item-selector {
   @include item-selector;
 }
